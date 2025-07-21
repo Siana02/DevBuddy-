@@ -39,3 +39,42 @@
 
 # debug information files
 *.dwo
+# ✅ Build directories
+/build/
+/CMakeFiles/
+/cmake-build-*/
+
+# ✅ Build system files
+Makefile
+CMakeCache.txt
+install_manifest.txt
+
+# ✅ Binaries and executables
+*.out
+*.o
+*.obj
+*.so
+*.a
+*.exe
+devbuddy
+
+# ✅ Logs and time tracking
+*.log
+task_log.txt
+
+# ✅ IDE/editor files
+.vscode/
+*.code-workspace
+*.DS_Store
+*.swp
+
+# ✅ Docker artifacts
+*.pid
+*.tar
+*.sock
+
+# ✅ OS-specific
+Thumbs.db
+ehthumbs.db
+.DS_Store
+desktop.ini
